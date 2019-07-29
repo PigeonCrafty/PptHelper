@@ -5,3 +5,11 @@ C:\Users\Pigeon Zhu\Documents\GitHub\PptHelper\PptHelper\obj\Debug\PptHelper.csp
 C:\Users\Pigeon Zhu\Documents\GitHub\PptHelper\PptHelper\obj\Debug\PptHelper.csproj.CoreCompileInputs.cache
 C:\Users\Pigeon Zhu\Documents\GitHub\PptHelper\PptHelper\obj\Debug\PptHelper.exe
 C:\Users\Pigeon Zhu\Documents\GitHub\PptHelper\PptHelper\obj\Debug\PptHelper.pdb
+C:\Users\pigeonz\Documents\GitHub\PptHelper\PptHelper\bin\Debug\PptHelper.exe.config
+C:\Users\pigeonz\Documents\GitHub\PptHelper\PptHelper\bin\Debug\PptHelper.exe
+C:\Users\pigeonz\Documents\GitHub\PptHelper\PptHelper\bin\Debug\PptHelper.pdb
+C:\Users\pigeonz\Documents\GitHub\PptHelper\PptHelper\obj\Debug\PptHelper.csprojAssemblyReference.cache
+C:\Users\pigeonz\Documents\GitHub\PptHelper\PptHelper\obj\Debug\PptHelper.csproj.ResolveComReference.cache
+C:\Users\pigeonz\Documents\GitHub\PptHelper\PptHelper\obj\Debug\PptHelper.csproj.CoreCompileInputs.cache
+C:\Users\pigeonz\Documents\GitHub\PptHelper\PptHelper\obj\Debug\PptHelper.exe
+C:\Users\pigeonz\Documents\GitHub\PptHelper\PptHelper\obj\Debug\PptHelper.pdb

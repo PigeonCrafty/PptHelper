@@ -16,26 +16,26 @@ namespace PptHelper
             string pathInput;
             string langInput;
 
-            Console.WriteLine(DateTime.Now + " " + "Developed by Moravia Publishing & Media team. All rights reserved." + "\n");
+            Console.WriteLine(DateTime.Now + " " + "Developed by Moravia Publishing & Media team. All rights reserved.");
             Console.WriteLine("========================================");
 
             // 1. Input folder or file path
-            Console.WriteLine(">>> Please input the complete folder or single file path: ");
+            Console.WriteLine(">>> Please input the complete Folder or single File Path: ");
             PathInput:
             pathInput = Console.ReadLine();
             if (string.IsNullOrEmpty(pathInput) && string.IsNullOrWhiteSpace(pathInput))
             {
-                Console.WriteLine("Empty or invalid directory, please re-enter: ");
+                Console.WriteLine("<!> Empty or invalid directory, please re-enter: ");
                 goto PathInput;
             }
 
             // 2. Input language name or code e.g 'Japanese' or 'Japan' or 'JAP'
-            Console.WriteLine(">>> Please input the complete folder or single file path: ");
+            Console.WriteLine("\n"+ ">>> Please input Target Language Name or Code: ");
             LangInput:
             langInput = Console.ReadLine();
             if (string.IsNullOrEmpty(langInput) && string.IsNullOrWhiteSpace(langInput))
             {
-                Console.WriteLine("Unable to identify, please double check and re-enter: (e.g.\"Japanese\" or \"Jap\"): ");
+                Console.WriteLine("<!> Unable to identify, please double check and re-enter: (e.g.\"Japanese\" or \"Jap\"): ");
                 goto LangInput;
             }
 
@@ -102,7 +102,7 @@ namespace PptHelper
 
             Console.WriteLine("========================================");
             Console.WriteLine(">>> Succeeded to load " + ListPpt.Count.ToString() + " files.");
-            Console.WriteLine(">>> Please hold on until progress complete :) ");
+            Console.WriteLine(">>> Please hold on until progress complete. It may take a while...");
             Console.WriteLine("========================================");
 
             // PowerPointHandler
@@ -110,7 +110,7 @@ namespace PptHelper
                 foreach (var f in ListPpt)
                 {
                     if (f.Contains("~$")) continue;
-                    Console.Write("\r\n" + "Processing: ");
+                    Console.Write("\r\n" + "Processing: " + f);
                     Common.WriteLine("\r\n" + f + "\r\n");
                     var objPpt = new PowerPointHandler(f, TargetLang);
                     objPpt.PptMain(f);

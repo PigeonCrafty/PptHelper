@@ -15,7 +15,7 @@ namespace PptHelper
         {
             string pathInput;
             string langInput;
-
+            
             Console.WriteLine(DateTime.Now + " " + "Developed by Moravia Publishing & Media team. All rights reserved.");
             Console.WriteLine("========================================");
 

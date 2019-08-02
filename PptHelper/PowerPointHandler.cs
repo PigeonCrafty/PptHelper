@@ -244,6 +244,7 @@ namespace PptHelper
             }
 
             // 4. Change Handout Master
+            //TODO
             var handoutMasterShapeNum = 0;
             foreach (POWERPOINT.Shape shape in pre.HandoutMaster.Shapes)
             {
@@ -272,6 +273,7 @@ namespace PptHelper
             }
 
             // 5. Change Note Master
+            //TODO delete
             var noteMasterShapeNum = 0;
             foreach (POWERPOINT.Shape shape in pre.NotesMaster.Shapes)
             {
